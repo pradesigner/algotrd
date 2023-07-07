@@ -1,0 +1,30 @@
+#+TITLE:algotrd system
+
+* Introduction to algotrd
+algotrd provides library functions for
+- the oanda endpts mechanism (oandpts.clj)
+- the analyses of truefx and other data (lyzer.clj)
+
+it makes extensive use of techascent through tablecloth.
+
+programs use these libraries for specific purposes:
+- nuen.clj places trades based on nu patterns
+
+* Libraries
+
+** io.clj
+contains input/output routines
+
+** oandpts.clj
+these are the endpts provided by oanda's api
+
+** lyzer.clj
+contains various routines for analyzing dohlc data
+
+* Programs
+
+** nuen.clj
+uses nu patterns to place trades
+
+* zz
+TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)

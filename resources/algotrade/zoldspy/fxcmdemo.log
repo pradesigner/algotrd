@@ -1,0 +1,36 @@
+|ERROR|2019-03-06 22:06:58,713|Server reports an error: {'executed': False, 'error': 'Cannot subscribe to symbol: EURUSD'}.
+|ERROR|2019-03-06 22:06:58,714|URL: https://api-demo.fxcm.com:443/subscribe
+|ERROR|2019-03-06 22:06:58,714|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer IewDgTfb5oRdsqcKAAeD97ec7121016bd05937028fa24d5d0dd0b2d37963', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '12'}
+|ERROR|2019-03-06 22:06:58,714|Params: {'pairs': 'EURUSD'}
+|ERROR|2019-03-06 22:06:58,714|Bearer token: Bearer IewDgTfb5oRdsqcKAAeD97ec7121016bd05937028fa24d5d0dd0b2d37963
+|ERROR|2019-03-06 22:06:58,714|Connection status: established
+|ERROR|2019-03-06 22:06:58,715|Socket session id: IewDgTfb5oRdsqcKAAeD
+|ERROR|2019-03-06 23:44:18,187|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2019-03-06 23:44:18,188|URL: https://api-demo.fxcm.com:443/trading/change_trade_stop_limit
+|ERROR|2019-03-06 23:44:18,188|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer BCRJpa0aq-asASAqAAgf97ec7121016bd05937028fa24d5d0dd0b2d37963', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '72'}
+|ERROR|2019-03-06 23:44:18,188|Params: {'trade_id': 17161522, 'is_in_pips': 'true', 'is_stop': 'true', 'rate': 60.0, 'trailing_step': 0}
+|ERROR|2019-03-06 23:44:18,188|Bearer token: Bearer BCRJpa0aq-asASAqAAgf97ec7121016bd05937028fa24d5d0dd0b2d37963
+|ERROR|2019-03-06 23:44:18,188|Connection status: established
+|ERROR|2019-03-06 23:44:18,188|Socket session id: BCRJpa0aq-asASAqAAgf
+|ERROR|2019-03-07 10:11:43,533|position id must be an integer.
+|ERROR|2019-03-07 10:26:43,510|Server reports an error: {'executed': False, 'error': '{"code":18,"message":"The Stop distance must be ","parameters":["<",0]}'}.
+|ERROR|2019-03-07 10:26:43,510|URL: https://api-demo.fxcm.com:443/trading/change_trade_stop_limit
+|ERROR|2019-03-07 10:26:43,510|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer kRrOR-z7ntDA6y3OAACG97ec7121016bd05937028fa24d5d0dd0b2d37963', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '72'}
+|ERROR|2019-03-07 10:26:43,510|Params: {'trade_id': 17171732, 'is_in_pips': 'true', 'is_stop': 'true', 'rate': 60.0, 'trailing_step': 0}
+|ERROR|2019-03-07 10:26:43,511|Bearer token: Bearer kRrOR-z7ntDA6y3OAACG97ec7121016bd05937028fa24d5d0dd0b2d37963
+|ERROR|2019-03-07 10:26:43,511|Connection status: established
+|ERROR|2019-03-07 10:26:43,511|Socket session id: kRrOR-z7ntDA6y3OAACG
+|ERROR|2019-03-07 19:54:16,286|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 1.11978","parameters":["<",1.11978]}'}.
+|ERROR|2019-03-07 19:54:16,286|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-03-07 19:54:16,286|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer kRrOR-z7ntDA6y3OAACG97ec7121016bd05937028fa24d5d0dd0b2d37963', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '158'}
+|ERROR|2019-03-07 19:54:16,286|Params: {'account_id': 373761, 'symbol': 'EUR/USD', 'is_buy': 'false', 'rate': 1.125, 'amount': 10, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 1.13, 'is_in_pips': 'false', 'stop': 1.12}
+|ERROR|2019-03-07 19:54:16,287|Bearer token: Bearer kRrOR-z7ntDA6y3OAACG97ec7121016bd05937028fa24d5d0dd0b2d37963
+|ERROR|2019-03-07 19:54:16,287|Connection status: established
+|ERROR|2019-03-07 19:54:16,287|Socket session id: kRrOR-z7ntDA6y3OAACG
+|ERROR|2019-03-07 19:54:57,315|Server reports an error: {'executed': False, 'error': '{"code":8,"message":"The Limit rate must be < 1.11975","parameters":["<",1.11975]}'}.
+|ERROR|2019-03-07 19:54:57,316|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-03-07 19:54:57,316|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer kRrOR-z7ntDA6y3OAACG97ec7121016bd05937028fa24d5d0dd0b2d37963', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '158'}
+|ERROR|2019-03-07 19:54:57,316|Params: {'account_id': 373761, 'symbol': 'EUR/USD', 'is_buy': 'false', 'rate': 1.125, 'amount': 10, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 1.12, 'is_in_pips': 'false', 'stop': 1.13}
+|ERROR|2019-03-07 19:54:57,316|Bearer token: Bearer kRrOR-z7ntDA6y3OAACG97ec7121016bd05937028fa24d5d0dd0b2d37963
+|ERROR|2019-03-07 19:54:57,316|Connection status: established
+|ERROR|2019-03-07 19:54:57,316|Socket session id: kRrOR-z7ntDA6y3OAACG
